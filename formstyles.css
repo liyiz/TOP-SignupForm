@@ -50,7 +50,8 @@ body {
 }
 
 main {
-    flex: 2;
+    flex: 2 2 905px;
+
     height: 100%;
     border: 1px solid blue;
     display: flex;
@@ -60,7 +61,8 @@ main {
 }
 
 .sidebar {
-    flex: 1;
+    flex: 1 1 535px;
+
     height: 100%;
     background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
     background-position: center;
@@ -114,20 +116,22 @@ main {
 
 .panel.heading {
     flex: auto;
+    padding: 2rem;
 
-    position: relative;
-    min-height: 0;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-end;
+    
 
-    max-width: 62ch;
-    padding-left: 6ch;
+    /* max-width: 62ch; */
+    /* padding-left: 6ch; */
 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.125rem;
     font-weight: bold;
     line-height: 1.2;
+    
 }
 
 .panel.form {
@@ -147,12 +151,17 @@ main {
 }
 
 .panel.heading > p.heading-text {
-    padding-bottom: 1.5rem;
+
+    flex: 0;
+    max-width: 55ch;
+    padding-bottom: 2rem;
 
 }
 
 .panel.heading > p.heading-cta {
-    padding-bottom: 4rem;
+
+    flex: 0;
+    padding-bottom: 2rem;
 
 }
 
