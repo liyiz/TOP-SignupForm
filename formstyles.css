@@ -169,6 +169,7 @@ main {
 
 .panel {
     border:1px solid purple;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 .panel.heading {
@@ -184,7 +185,6 @@ main {
     /* max-width: 62ch; */
     /* padding-left: 6ch; */
 
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 1.125rem;
     font-weight: bold;
     line-height: 1.2;
@@ -198,7 +198,6 @@ main {
     align-content: flex-start;
     padding: 2rem;
 
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: var(--color-form-header);
 }
@@ -224,6 +223,10 @@ main {
     font-weight: bold;
     width: 236px;
     height: 50px;
+}
+
+.panel.cta div {
+    font-size: 18px;
 }
 
 
