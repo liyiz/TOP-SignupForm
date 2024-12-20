@@ -81,6 +81,7 @@
 
 :root {
     --color-highlight: #596D48;
+    --color-form-text: #1f2937;
     --color-heading-text: #000000;
     --color-form-header: #1f2937
 }
@@ -185,8 +186,8 @@ main {
     /* max-width: 62ch; */
     /* padding-left: 6ch; */
 
-    font-size: 1.125rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 500;
     line-height: 1.2;
     
 }
