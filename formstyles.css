@@ -230,8 +230,9 @@ main {
     margin-bottom: 28px;
 }
 
-.panel.cta div {
+.panel.cta div p {
     font-size: 18px;
+    font-weight: normal;
 }
 
 
@@ -256,8 +257,9 @@ main {
 
 
 .panel.form > h2 {
-    font-size: 1.125rem;
-    font-weight: normal;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 32px;
 }
 
 .panel.form > form {
@@ -269,4 +271,11 @@ main {
 .panel.form .form-field {
     display: flex;
     flex-direction: column;
+}
+
+.panel.form label {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0.125rem;
 }
