@@ -80,7 +80,7 @@
 }
 
 :root {
-    --color-btn-text: #596D48;
+    --color-highlight: #596D48;
     --color-heading-text: #000000;
     --color-form-header: #1f2937
 }
@@ -203,9 +203,29 @@ main {
     color: var(--color-form-header);
 }
 
-.panel.footer {
+.panel.cta {
     flex: auto;
 }
+
+
+.panel.cta button {
+    /* button default resets */
+    padding-block: 0;
+    padding-inline: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+
+    background-color: var(--color-highlight);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    font-weight: bold;
+    width: 236px;
+    height: 50px;
+}
+
 
 .panel.heading > p.heading-text {
 
