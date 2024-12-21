@@ -245,6 +245,12 @@ main {
     font-weight: normal;
 }
 
+.panel.cta div a {
+    font-weight: bold;
+    color: var(--color-highlight);
+    text-decoration: none;
+}
+
 
 .panel.heading > p.heading-text {
 
