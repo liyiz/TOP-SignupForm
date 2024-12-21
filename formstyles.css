@@ -139,6 +139,7 @@ main {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 300;
+    margin-bottom: 16px;
 }
 
 .logo-modal {
@@ -235,6 +236,8 @@ main {
     height: 50px;
 
     margin-bottom: 28px;
+
+    box-shadow: 0 2px 4px 0px hsla(0 0% 0% / 0.2);
 }
 
 .panel.cta div p {
