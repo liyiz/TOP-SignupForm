@@ -194,7 +194,7 @@ main {
 }
 
 .panel.form {
-    flex: content;
+    flex: 0 1 300px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -276,7 +276,9 @@ main {
 .panel.form > form {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1.5rem 4.5rem;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
 }
 
 .panel.form .form-field {
