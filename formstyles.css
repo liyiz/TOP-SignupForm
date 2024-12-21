@@ -83,7 +83,9 @@
     --color-highlight: #596D48;
     --color-form-text: #1f2937;
     --color-heading-text: #000000;
-    --color-form-header: #1f2937
+    --color-form-header: #1f2937;
+    --color-panel-bg-primary: #f9fafb;
+    --color-panel-bg-secondary: #ffffff;
 }
 
 * {
@@ -111,7 +113,6 @@ main {
     flex: 2 2 905px;
 
     height: 100%;
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,7 +126,6 @@ main {
     background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +133,6 @@ main {
 }
 
 .sidebar > .credit {
-    border: 1px solid red;
     position: absolute;
     bottom: 0;
     color: #ffffff;
@@ -169,7 +168,6 @@ main {
 }
 
 .panel {
-    border:1px solid purple;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
@@ -189,6 +187,8 @@ main {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.2;
+
+    background-color: var(--color-panel-bg-primary);
     
 }
 
@@ -201,12 +201,16 @@ main {
 
     font-weight: normal;
     color: var(--color-form-header);
+    background-color: var(--color-panel-bg-secondary);
+
 }
 
 .panel.cta {
     flex: auto;
 
     padding: 35px 48px;
+
+    background-color: var(--color-panel-bg-primary);
 }
 
 
