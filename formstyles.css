@@ -203,6 +203,9 @@ main {
     color: var(--color-form-header);
     background-color: var(--color-panel-bg-secondary);
 
+    box-shadow: 0 5px 14px -2px hsla(0 0% 0% / 0.2);
+
+    z-index: 999;
 }
 
 .panel.cta {
