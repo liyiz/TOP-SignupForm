@@ -260,6 +260,7 @@ main {
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 32px;
+    color: var(--color-form-text);
 }
 
 .panel.form > form {
@@ -278,4 +279,13 @@ main {
     font-weight: 500;
     font-size: 0.75rem;
     letter-spacing: 0.125rem;
+    color: var(--color-form-text);
+    padding-bottom: 4px;
+}
+
+.panel.form input {
+    border: 1px solid #e5e7eb;
+    width: 262px;
+    height: 32px;
+    border-radius: 4px;
 }
