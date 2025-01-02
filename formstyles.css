@@ -310,7 +310,7 @@ main {
     padding: 0 0.5rem;
 }
 
-.panel.form input:focus-visible {
+.panel.form input:focus {
 
     /* focus default override reset */
     outline:none; 
