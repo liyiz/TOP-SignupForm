@@ -172,10 +172,6 @@ main {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
-input { /* reset any browser defaults on form inputs */
-    appearance: none;
-}
-
 .panel.heading {
     flex: auto;
     padding: 2rem;
@@ -312,3 +308,10 @@ input { /* reset any browser defaults on form inputs */
     border-radius: 4px;
 }
 
+.panel.form input:focus-visible {
+    border:1px solid red;
+}
+
+.panel.form input:focus {
+    border:1px solid red;
+}
