@@ -320,7 +320,7 @@ main {
 
 }
 
-.panel.form input[type="password"]:invalid {
+.panel.form input:invalid {
     border: 1px solid var(--color-form-invalid);
 }
 
